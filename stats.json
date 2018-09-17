@@ -1,0 +1,274 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.19.0",
+  "hash": "dfaaeb4e2b29c87d70c1",
+  "time": 316,
+  "builtAt": 1537019081974,
+  "publicPath": "",
+  "outputPath": "C:\\Users\\Витя\\Desktop\\AndAgaine\\dist",
+  "assetsByChunkName": {
+    "main": "bundle.js"
+  },
+  "assets": [
+    {
+      "name": "bundle.js",
+      "size": 4754,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 212,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "bundle.js"
+      ],
+      "hash": "a3f83d05a069d1fdb905",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/entry.js",
+          "identifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+          "name": "./src/entry.js",
+          "index": 0,
+          "index2": 1,
+          "size": 75,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/entry.js",
+              "loc": "main"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "'use strict';\r\n\r\nimport bar from './index.js';\r\nconsole.log(\"+++\");\r\nbar();"
+        },
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\index.js",
+          "name": "./src/index.js",
+          "index": 1,
+          "index2": 0,
+          "size": 137,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+          "issuerId": "./src/entry.js",
+          "issuerName": "./src/entry.js",
+          "issuerPath": [
+            {
+              "id": "./src/entry.js",
+              "identifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+              "name": "./src/entry.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/entry.js",
+              "moduleIdentifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+              "module": "./src/entry.js",
+              "moduleName": "./src/entry.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./index.js",
+              "loc": "3:0-29"
+            },
+            {
+              "moduleId": "./src/entry.js",
+              "moduleIdentifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+              "module": "./src/entry.js",
+              "moduleName": "./src/entry.js",
+              "type": "harmony import specifier",
+              "userRequest": "./index.js",
+              "loc": "5:0-3"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "'use strict'\r\nexport default function bar() {\r\n\tconsole.log(\"aaa\");\r\n\tdocument.querySelector('.content').textContent+=\"HELLO!!\";\r\n}\r\n\r\n\r\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/entry.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/entry.js",
+      "identifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+      "name": "./src/entry.js",
+      "index": 0,
+      "index2": 1,
+      "size": 75,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/entry.js",
+          "loc": "main"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "'use strict';\r\n\r\nimport bar from './index.js';\r\nconsole.log(\"+++\");\r\nbar();"
+    },
+    {
+      "id": "./src/index.js",
+      "identifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\index.js",
+      "name": "./src/index.js",
+      "index": 1,
+      "index2": 0,
+      "size": 137,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+      "issuerId": "./src/entry.js",
+      "issuerName": "./src/entry.js",
+      "issuerPath": [
+        {
+          "id": "./src/entry.js",
+          "identifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+          "name": "./src/entry.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/entry.js",
+          "moduleIdentifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+          "module": "./src/entry.js",
+          "moduleName": "./src/entry.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./index.js",
+          "loc": "3:0-29"
+        },
+        {
+          "moduleId": "./src/entry.js",
+          "moduleIdentifier": "C:\\Users\\Витя\\Desktop\\AndAgaine\\src\\entry.js",
+          "module": "./src/entry.js",
+          "moduleName": "./src/entry.js",
+          "type": "harmony import specifier",
+          "userRequest": "./index.js",
+          "loc": "5:0-3"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "'use strict'\r\nexport default function bar() {\r\n\tconsole.log(\"aaa\");\r\n\tdocument.querySelector('.content').textContent+=\"HELLO!!\";\r\n}\r\n\r\n\r\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

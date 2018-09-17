@@ -1,0 +1,9 @@
+.content{
+	width: 960px;
+	height:200px;
+	margin:0 auto;
+	background-color: pink;
+	color:yellow;
+	text-align: center;
+	line-height: 200px;	
+}
