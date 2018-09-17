@@ -26,7 +26,9 @@
     "devbuild": "webpack --env development",
     "watch": "npm run build -- --watch",
     "start": "nodemon -w  webpack.config.js -x webpack-dev-server --open --env development",
-    "inspect": "node --inspect-brk node_modules/.bin/webpack --env production"
+    "inspect": "node --inspect-brk node_modules/.bin/webpack --env production",
+    "css-loader":"npm install --save-dev css-loader",
+    "owl":"npm install --save owl.carousel"
   },
   "dependencies": {
     "google-maps": "^3.3.0",

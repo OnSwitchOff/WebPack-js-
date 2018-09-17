@@ -22,7 +22,12 @@ module.exports = function(env){
 			new webpack.DefinePlugin({
 				ENV_IS_DEVELOPMENT: isDevelopment,
 				ENV_IS: JSON.stringify(env),
-			})
+			}),
+			new webpack.ProvidePlugin({
+		    	$: 'jquery',
+		    	jQuery: 'jquery',
+		    	'window.jQuery': 'jquery'
+		    })
 		]
 	};
 

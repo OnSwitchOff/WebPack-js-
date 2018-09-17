@@ -21,7 +21,21 @@ module.exports={
 						}
 					}
 				]// tee-loader(babel-loader(source))
+			},
+			{
+				test: /\.css$/,
+				exclude:/node_modules/,
+				use: [
+			    	{
+			    		loader: 'css-loader',
+			    		options: {
+			        		modules: true,
+			        		localIdentName: path.resolve(__dirname,'./dist/css/style.css')
+			    		}
+			    	}
+				]
 			}
+
 		]
 	},
 	resolveLoader:{
